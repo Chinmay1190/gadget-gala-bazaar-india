@@ -158,7 +158,7 @@ export default function ProductsPage({ category }: ProductsPageProps) {
                   <SelectValue placeholder="All brands" />
                 </SelectTrigger>
                 <SelectContent>
-                  <SelectItem value="">All brands</SelectItem>
+                  <SelectItem value="all-brands">All brands</SelectItem>
                   {brands.map(brand => (
                     <SelectItem key={brand} value={brand}>
                       {brand}
